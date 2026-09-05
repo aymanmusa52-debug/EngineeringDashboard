@@ -1,0 +1,15 @@
+name: EngineeringDashboard
+options:
+  bundleIdPrefix: com.engineering
+targets:
+  EngineeringDashboard:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: ["."]
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.engineering.dashboard
+      SWIFT_VERSION: "5.9"
+      INFOPLIST_KEY_CFBundleDisplayName: "Engineering Dashboard"
+      INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
